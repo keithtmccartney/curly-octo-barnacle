@@ -6,6 +6,14 @@ Grab the article at [https://medium.com/react-native-training/bitcoin-ripple-eth
 ## Tips
 
 * I had difficulties on running the Expo emulator on my handset - Nokia 6.1 - directly through the command-line/QR-code combination; after toying-around with some ipconfig/Firewall bits'n'pieces I eventually made my life a little easier through letting Expo do all the hard graft for me - by installing [Local Development Tool: XDE](https://docs.expo.io/versions/latest/introduction/installation.html) (direct Windows [link](https://xde-updates.exponentjs.com/download/win32))
+* [es6 decontructing](https://www.google.ch/search?q=es6+decontructing&oq=es6+decontructing&aqs=chrome..69i57j0.4577j0j7&sourceid=chrome&ie=UTF-8)
+* [HTMLElement.style](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style)
+* [Learn how to build an Astronomy Picture of the Day App with the NASA API and React + Redux (Part II)](https://medium.freecodecamp.org/learn-how-to-build-astronomy-picture-of-the-day-app-with-nasa-api-and-react-redux-part-ii-83f15970d0e3)
+* Redux debugging middleware, allows us to use the Redux Chrome Devtools in Remote mode: [redux](https://www.npmjs.com/package/redux) — Redux library [react-redux](https://www.npmjs.com/package/react-redux) — Glue for React and Redux, "remote-redux-devtool remotedev-rn-debugger"
+* [Redux DevTools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en)
+* [redux-thunk](https://www.npmjs.com/package/redux-thunk) — Redux thunk lets us to return a function inside an action instead returning a object)
+* redux-logger — logs the previous state, action and the next state in the console (logger must be the last middleware in chain, otherwise it will log thunk and promise, not actual actions [(#20)](https://github.com/evgenyrodionov/redux-logger/issues/20))
+* [redux-promise](https://www.npmjs.com/package/redux-promise) — Allows us to resolve async actions (promises) with Redux. Example: Fetching data from an API
 
 ## What's it all about?
 
