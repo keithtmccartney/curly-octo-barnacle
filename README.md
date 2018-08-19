@@ -14,6 +14,10 @@ Grab the article at [https://medium.com/react-native-training/bitcoin-ripple-eth
 * [redux-thunk](https://www.npmjs.com/package/redux-thunk) — Redux thunk lets us to return a function inside an action instead returning a object)
 * redux-logger — logs the previous state, action and the next state in the console (logger must be the last middleware in chain, otherwise it will log thunk and promise, not actual actions [(#20)](https://github.com/evgenyrodionov/redux-logger/issues/20))
 * [redux-promise](https://www.npmjs.com/package/redux-promise) — Allows us to resolve async actions (promises) with Redux. Example: Fetching data from an API
+* import [Platform](https://facebook.github.io/react-native/docs/platform-specific-code.html#platform-module) from 'react-native'
+* createStore() [accepts the following arguments](https://github.com/reactjs/redux/blob/master/docs/api/createStore.md): reducer, preloaded state, enhancer
+* Redux [store enhancers](https://github.com/reactjs/redux/blob/master/docs/Glossary.md#store-enhancer) ([More information](https://github.com/reactjs/redux/blob/master/docs/api/compose.md))
+* [even more information](https://github.com/reactjs/redux/blob/master/docs/api)...
 
 ## What's it all about?
 
